@@ -13,7 +13,7 @@ A plugin that provides a `debug` component that makes it visually easier to view
 </body>
 ```
 
-![](/home/jeroen/Code/tailwind-debug/static/examle.png)
+![](static/examle.png)
 
 ## Example
 
