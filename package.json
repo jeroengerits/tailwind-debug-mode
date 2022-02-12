@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "tailwind-debug-mode",
   "description": "A Tailwind CSS plugin that makes it easier to debug layouts.",
   "repository": "https://github.com/jeroengerits/tailwind-debug-mode",
