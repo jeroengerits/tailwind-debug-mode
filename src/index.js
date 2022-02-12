@@ -4,7 +4,6 @@ const debug = plugin.withOptions(function (
   options = {
     wireColor: 'black',
     textColor: 'transparent',
-    screensColor: 'black',
     svgColor: 'black',
   }
 ) {

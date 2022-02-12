@@ -46,17 +46,18 @@ module.exports = {
 ```
 
 ## Configuration
-Define your own color scheme 
+
+Define your own color scheme
+
 ```js
 // tailwind.config.js
 module.exports = {
   plugins: [
     require('tailwind-debug-mode')({
-        screensColor: '#000000cc', // the color of the screensize background
-        wireColor: '#000000cc', // the color of the wires
-        svgColor: '#000000cc', // the color of the svg
-        textColor: '#33333399', // the color of the text on hover
-        inputColor: '#33333322', // the background color of input elements
+      wireColor: '#000000cc', // the color of the wires
+      svgColor: '#000000cc', // the color of the svg
+      textColor: '#33333399', // the color of the text on hover
+      inputColor: '#33333322', // the background color of input elements
     }),
     // ...
   ],
