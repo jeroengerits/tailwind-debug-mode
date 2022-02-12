@@ -2,6 +2,8 @@
 
 A plugin that provides a `debug` component that makes it visually easier to view the document structure.
 
+![](static/examle.png)
+
 ## Basic usage
 
 > Currently, the plugin only supports the `debug` component on a body element.
@@ -12,8 +14,6 @@ A plugin that provides a `debug` component that makes it visually easier to view
   <!-- ... -->
 </body>
 ```
-
-![](static/examle.png)
 
 ## Example
 
