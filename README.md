@@ -4,6 +4,8 @@ A plugin that provides a `debug` component that makes it visually easier to view
 
 ![](static/examle.png)
 
+View an example of the [debug mode in action](#)
+
 ## Basic usage
 
 > Currently, the plugin only supports the `debug` component on a body element.
@@ -14,10 +16,6 @@ A plugin that provides a `debug` component that makes it visually easier to view
   <!-- ... -->
 </body>
 ```
-
-## Example
-
-View an example of the [debug mode in action](#)
 
 ## Installation
 
