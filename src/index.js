@@ -63,7 +63,6 @@ const debug = plugin.withOptions(function (
           borderColor: 'transparent !important',
           background: 'none #fbfbf8 !important',
           transition: 'all .5s ease-in-out !important',
-          transitionDelay: '.5s !important',
           color: `transparent !important`,
           outline: `1px solid ${options.wireColor} !important`,
         },
