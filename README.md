@@ -25,10 +25,10 @@ Install the plugin:
 
 ```sh
 # Using npm
-npm install tailwind-debug
+npm install tailwind-debug-mode
 
 # Using Yarn
-yarn add tailwind-debug
+yarn add tailwind-debug-mode
 ```
 
 Then add the plugin to your `tailwind.config.js` file:
