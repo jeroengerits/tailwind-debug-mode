@@ -47,7 +47,7 @@ module.exports = {
 
 ## Configuration
 
-Define your own color scheme
+Optionally - define your custom color scheme
 
 ```js
 // tailwind.config.js
