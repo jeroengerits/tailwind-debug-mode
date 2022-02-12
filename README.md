@@ -2,13 +2,15 @@
 
 A plugin that provides a `debug` component that makes it visually easier to view the document structure.
 
+## Preview
+
 ![](static/examle.png)
 
-View an example of the [debug mode in action](#)
+## Example
+
+View an example of the debug mode in action: [https://jeroengerits.github.io/tailwind-debug-mode/](https://jeroengerits.github.io/tailwind-debug-mode/)
 
 ## Basic usage
-
-> Currently, the plugin only supports the `debug` component on a body element.
 
 ```html
 <!-- Enable debug mode : -->
@@ -17,9 +19,11 @@ View an example of the [debug mode in action](#)
 </body>
 ```
 
+> Currently, the plugin only supports the `debug` component on a body element.
+
 ## Installation
 
-Install the plugin:
+Install the plugin
 
 ```sh
 # Using npm
@@ -42,13 +46,19 @@ module.exports = {
 ```
 
 ## Configuration
-
-```
-{
-    screensColor: '#000000cc', // the color of the screensize background
-    wireColor: '#000000cc', // the color of the wires
-    svgColor: '#000000cc', // the color of the svg
-    textColor: '#33333399', // the color of the text on hover
-    inputColor: '#33333322', // the background color of input elements
+Define your own color scheme 
+```js
+// tailwind.config.js
+module.exports = {
+  plugins: [
+    require('tailwind-debug-mode')({
+        screensColor: '#000000cc', // the color of the screensize background
+        wireColor: '#000000cc', // the color of the wires
+        svgColor: '#000000cc', // the color of the svg
+        textColor: '#33333399', // the color of the text on hover
+        inputColor: '#33333322', // the background color of input elements
+    }),
+    // ...
+  ],
 }
 ```
