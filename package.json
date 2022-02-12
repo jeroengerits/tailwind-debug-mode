@@ -19,8 +19,7 @@
     "debug-layout-mode"
   ],
   "files": [
-    "src/*.js",
-    "dist/"
+    "src/*.js"
   ],
   "publishConfig": {
     "access": "public"
