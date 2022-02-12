@@ -6,6 +6,18 @@
   "repository": "https://github.com/jeroengerits/tailwind-debug-mode",
   "author": "Jeroen Gerits <jeroen@gerits.email>",
   "main": "src/index.js",
+  "keywords": [
+    "tailwind",
+    "tailwind-plugin",
+    "tailwindcss",
+    "tailwindcss-plugin",
+    "plugin",
+    "debug",
+    "debug-mode",
+    "layout",
+    "debug-layout",
+    "debug-layout-mode"
+  ],
   "files": [
     "src/*.js",
     "dist/"
