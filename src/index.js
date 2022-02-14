@@ -47,12 +47,13 @@ const debug = plugin.withOptions(function (
     // Inspired by: https://twitter.com/w3bits_/status/1443901426292326407
     const wires = {
       'body.debug img': {
-        opacity: '0 !important',
+        opacity: '.25 !important',
         filter: 'grayscale(100) !important',
         transition: 'all .5s ease-in-out !important',
+        outline: `1px solid ${options.wireColor} !important`,
       },
       'body.debug img:hover': {
-        opacity: '0.5 !important',
+        opacity: '.75 !important',
       },
       'body.debug *, body.debug *::before, body.debug *::after, body.debug, body.debug::before, body.debug::after':
         {
