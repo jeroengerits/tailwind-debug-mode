@@ -70,7 +70,7 @@ const debug = plugin.withOptions(function (
         zIndex: '1000 !important',
         outline: `2px solid ${options.wireColor} !important`,
       },
-      'body.debug svg, body.debug svg:hover': {
+      'body.debug svg, body.debug svg:hover > *': {
         outline: 'none !important',
         boxShadow: 'none !important',
       },

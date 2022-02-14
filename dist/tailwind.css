@@ -545,7 +545,7 @@ body.debug *:hover > * {
 }
 
 body.debug svg,
-body.debug svg:hover {
+body.debug svg:hover > * {
   outline: none !important;
   box-shadow: none !important;
 }
